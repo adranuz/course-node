@@ -1,0 +1,21 @@
+{
+  "name": "npm-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adrian Garcia <garciasaaib@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.16.1",
+    "eslint": "^7.11.0",
+    "webpack": "^5.1.2"
+  }
+}
