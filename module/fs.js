@@ -18,25 +18,25 @@ const message = {
 
 //file system
 const createNwrite = (path, msg) => fs.writeFile(path, msg.empty)
-.then(console.log(msg.createNwrite))
-.catch(error => console.log(msg.error))
+  .then(console.log(msg.createNwrite))
+  .catch(error => console.log(msg.error))
 
 const read = (path, msg) => fs.readFile(path)
-.then(console.log(msg.read))
-.then(data => console.log('This was read:', data.toString()))
-.catch(error => console.log(msg.error))
+  .then(console.log(msg.read))
+  .then(data => console.log('This was read:', data.toString()))
+  .catch(error => console.log(msg.error))
 
 const rewrite = (path, msg) => fs.appendFile(path, msg.content)
-.then(console.log(msg.rewrite))
-.catch(error => console.log(msg.error))
+  .then(console.log(msg.rewrite))
+  .catch(error => console.log(msg.error))
 
 const remove = (path, msg) => fs.unlink(path)
-.then(console.log(msg.delete))
-.catch(error => console.log(msg.error))
+  .then(console.log(msg.delete))
+  .catch(error => console.log(msg.error))
 
 const exist = (path, msg) => fs.open(path, 'wx')
-.then(console.log(msg.exists))
-.catch(error => console.log(msg.error))
+  .then(console.log(msg.exists))
+  .catch(error => console.log(msg.error))
 
 //main
 const main = async(path, msg) => {

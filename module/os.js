@@ -13,6 +13,7 @@ const os = require('os')
 // console.log(os.homedir())
 
 // console.log(os.tmpdir())
-// console.log(os.hostname())
-console.log(os.networkInterfaces())
+// console.log(os.hostname())console.table(os.cpus())
+//los nucleos de tu pcs
+console.log(os.networkInterfaces().Ethernet.map(i => i.address))
 
