@@ -1,0 +1,27 @@
+{
+  "name": "course-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scope:global": "nodemon src/scope/global.js",
+    "scope:local": "nodemon src/scope/local.js",
+    "scope:func": "nodemon src/scope/function.js",
+    "scope:block": "nodemon src/scope/block.js",
+    "scope:closure": "nodemon src/scope/closure.js",
+    "scope:lexical": "nodemon src/scope/closure-lexico.js",
+    "scope:private": "nodemon src/scope/closure-private.js",
+    "scope:loop": "nodemon src/scope/closure-loops.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adranuz/course-node.git"
+  },
+  "keywords": [],
+  "author": "Garcia Saaib <garciasaaib@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adranuz/course-node/issues"
+  },
+  "homepage": "https://github.com/adranuz/course-node#readme"
+}
