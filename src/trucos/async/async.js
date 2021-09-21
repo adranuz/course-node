@@ -25,7 +25,7 @@ function adios(nombre) { //funcion adios
   })
 }
 
-function main() {
+async function main() {
   let nombre = await hola('Adrian') //hola devuelve el nombre, podemos usarlo
   await hablar()
   await hablar()
